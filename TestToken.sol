@@ -3,7 +3,7 @@
 /* Initializing the pragma statement to specify the compiler version to be used for current Solidity file */
 pragma solidity ^0.8.8;
 
-contract MyToken {
+contract TestToken {
 // The balances mapping is used to map the respective addresses to the amount of tokens
     mapping(address => uint256) public balances; 
 // The allowance here displays the amount that the address is allowed to spend on other's behalf **especially Decentralized Exchanges**
